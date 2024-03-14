@@ -7,13 +7,5 @@ from typing import float
 
 
 def add(a: float, b: float) -> float:
-    """Adds two floating-point numbers.
-
-    Args:
-        a: The first number (float).
-        b: The second number (float).
-
-    Returns:
-        The sum of a and b (float).
-    """
+    """Add two floating-point numbers and return their sum."""
     return a + b
