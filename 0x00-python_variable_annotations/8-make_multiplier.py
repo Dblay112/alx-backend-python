@@ -19,6 +19,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     
 
     def innerFunction(number: float) -> float:
-    """Inner function that performs the multiplication"""
-    return number * multiplier
-return innerFunction
+        """Inner function that performs the multiplication"""
+        return number * multiplier
+    return innerFunction
