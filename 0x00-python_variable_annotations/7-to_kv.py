@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+"""
+Import the necessary module.
+"""
+from typing import Union, Tuple
+
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Creates a tuple from a string key and an integer/float value, returning the squared value.
 
