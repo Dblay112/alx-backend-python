@@ -1,4 +1,4 @@
-What are Variable Annotations?
+iWhat are Variable Annotations?
 
 Variable annotations in Python allow developers to specify the types of variables explicitly. These annotations provide
 additional information about the intended usage and expected data types of variables, improving code readability and
