@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Iimport the necessary module.
+Import the necessary module.
 """
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
