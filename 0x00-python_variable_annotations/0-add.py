@@ -5,6 +5,7 @@ Import the necessary module.
 
 from typing import float
 
+
 def add(a: float, b: float) -> float:
   """function that sum of two floating-point numbers.
 
