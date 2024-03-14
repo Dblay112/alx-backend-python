@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
-""""
-Import the necessary module.
+"""
+Import necessary module.
 """
 
-
 def concat(str1: str, str2: str) -> str:
-  """Concatenates two strings.
+    """Concatenates two strings.
 
-  Args:
-      str1: The first string (str).
-      str2: The second string (str).
+    Args:
+        str1: First string (str).
+        str2: Second string (str).
 
-  Returns:
-      The concatenated string (str).
-  """
-  return str1 + str2
+    Returns:
+        Concatenated string (str).
+    """
+    return str1 + str2
