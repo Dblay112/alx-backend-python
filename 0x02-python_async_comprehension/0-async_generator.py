@@ -2,9 +2,10 @@
 """imported modules below"""
 import asyncio
 import random
+from typing import Generator
 
 
-async def async_generator():
+async def async_generator() -> Generator[List[float, None, None]:
     """Async generator to yields 10 random numbers between 0 and 10,
     waiting 1 second"""
 
