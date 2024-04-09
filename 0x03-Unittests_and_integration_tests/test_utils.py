@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parameterize,memoize a unit test module.
+Parameterize memoize a unit test module.
 """
 import unittest
 from parameterized import parameterized
