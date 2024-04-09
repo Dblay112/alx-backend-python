@@ -43,7 +43,6 @@ class TestGetJson(unittest.TestCase):
         ("http://example.com", {"payload": True}),
         ("http://holberton.io", {"payload": False})
     ])
-
     def test_get_json(self, url, payload):
         """
         function to test get_json
