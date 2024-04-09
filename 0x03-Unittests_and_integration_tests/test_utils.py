@@ -63,13 +63,23 @@ class TestGetJson(unittest.TestCase):
 
 
 class TestMemoize(unittest.TestCase):
-    """class to test memoize"""
+    """ test class to memoize unittest """
+
     def test_memoize(self):
+        """ method to memoize test """
+
         class TestClass:
-            """class TestClass"""
+            """test class to use in in-function"""
+
             def a_method(self):
                 return 42
-            
+
             @memoize
             def a_property(self):
                 return self.a_method()
+
+        with patch.object(TestClass, 'a_method') as m_method:
+            obj = TestClass()
+            obj.a_property
+            obj.a_property
+            m_method.asset_called_once()
